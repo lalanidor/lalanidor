@@ -152,5 +152,28 @@ footer p{margin:4px 0}
     gap: 28px;
     margin: 34px auto 42px;
   }
+  .story-intro {
+  max-width: 850px;
+  margin: 0 auto 65px;
+  display: block;
+}
+
+.story-intro p {
+  margin: 0 0 24px;
+  line-height: 1.8;
+}
+
+
+/* PODNASLOV DOLGE ZGODBE */
+
+.story-subtitle {
+  max-width: 850px;
+  margin: 65px auto 38px;
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+  color: #5a414b;
+}
 }
 
