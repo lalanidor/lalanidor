@@ -34,7 +34,7 @@ a{color:inherit}
 .heading h2,.promise h2{margin:8px 0 0;font:600 clamp(42px,6vw,68px)/1 "Cormorant Garamond",serif}
 .heading p{color:var(--muted)}
 .section-subtitle{font:italic 500 25px "Cormorant Garamond",serif;color:var(--pink-5)!important;margin-top:10px}
-.story-copy{max-width:920px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.story-copy{max-width:920px;margin:0 auto;display:block}
 .story-copy p{margin:0}
 .section blockquote{max-width:850px;margin:54px auto 0;text-align:center;color:var(--pink-5);font:italic 500 clamp(26px,3vw,40px)/1.2 "Cormorant Garamond",serif}
 .dogs{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:1180px;margin:0 auto}
