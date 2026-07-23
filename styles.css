@@ -175,5 +175,40 @@ footer p{margin:4px 0}
   font-weight: 500;
   color: #5a414b;
 }
+/* Naša zgodba – ena kolona na računalniku */
+.story-copy {
+  display: block !important;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
+.story-subtitle {
+  display: block;
+  width: 100%;
+  margin: 42px 0 28px;
+}
+
+.story-book {
+  display: block;
+  width: 100%;
+}
+
+.story-photos {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  width: 100%;
+  margin: 42px auto 48px;
+}
+
+.story-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 760px) {
+  .story-photos {
+    grid-template-columns: 1fr;
+  }
+}
