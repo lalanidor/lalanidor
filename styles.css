@@ -121,7 +121,8 @@ footer p{margin:4px 0}
 .story-photo img {
   display: block;
   width: 100%;
-  height: auto;
+  height: 280px;
+  object-fit:cover;
   border-radius: 22px;
   box-shadow: 0 14px 34px rgba(90, 62, 70, 0.14);
 }
