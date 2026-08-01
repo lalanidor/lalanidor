@@ -212,4 +212,66 @@ footer p{margin:4px 0}
   .story-photos {
     grid-template-columns: 1fr;
   }
+}/* ==========================================
+   PREDSTAVITEV PASME
+========================================== */
+
+.breed-photo {
+    margin: 50px 0;
+}
+
+.breed-image {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hero-photo {
+    width: 100%;
+    max-width: 850px;
+    border-radius: 18px;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+.breed-image h2 {
+    font-size: 2rem;
+    color: #5a4a4b;
+    margin-bottom: 15px;
+}
+
+.breed-image .intro {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.breed-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.breed-card h3 {
+    color: #c7869a;
+    margin-bottom: 15px;
+}
+
+.breed-card p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    color: #c7869a;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.read-more:hover {
+    color: #8f5d6c;
 }
