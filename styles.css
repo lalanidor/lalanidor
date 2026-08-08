@@ -230,7 +230,7 @@ footer p{margin:4px 0}
 
 .story-ending h2{
     margin:0 0 22px;
-    font:500 clamp(34px,3.8vw,52px)/1.15 "Cormorant Garamond", serif;
+   font:500 clamp(34px,3.8vw,50px)/1.1 "Cormorant Garamond", serif;
     color:#5a414b;
 }
 
