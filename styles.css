@@ -220,7 +220,7 @@ footer p{margin:4px 0}
 }
 .story-ending{
     max-width:850px;
-    margin:70px auto 40px;
+    margin:110px auto 50px;
     text-align:center;
 }
 
@@ -230,7 +230,7 @@ footer p{margin:4px 0}
 
 .story-ending h2{
     margin:0 0 22px;
-    font:500 clamp(42px,5vw,68px)/1 "Cormorant Garamond", serif;
+    font:500 clamp(34px,3.8vw,52px)/1.15 "Cormorant Garamond", serif;
     color:#5a414b;
 }
 
