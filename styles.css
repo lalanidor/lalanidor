@@ -226,8 +226,8 @@ footer p{margin:4px 0}
 }
 
 .hero-photo {
-    width: 100%;
-    max-width: 850px;
+     width: 320px;
+    max-width: 100%;
     border-radius: 18px;
     display: block;
     margin: 0 auto 25px;
