@@ -230,13 +230,16 @@ footer p{margin:4px 0}
 }
 
 .story-ending h2{
-    margin:0 0 22px;
-   font:500 clamp(34px,3.8vw,50px)/1.1 "Cormorant Garamond", serif;
+    margin:0 0 18px;
+    font-size:54px;
+    font-weight:500;
+    line-height:1.08;
+    font-family:"Cormorant Garamond", serif;
     color:#5a414b;
 }
 
 .story-ending p{
-    max-width:760px;
+    max-width:640px;
     margin:0 auto;
     font-size:20px;
     line-height:1.8;
