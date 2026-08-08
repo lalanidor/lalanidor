@@ -218,6 +218,29 @@ footer p{margin:4px 0}
   }
 
 }
+.story-ending{
+    max-width:850px;
+    margin:70px auto 40px;
+    text-align:center;
+}
+
+.story-ending .mini{
+    margin-bottom:8px;
+}
+
+.story-ending h2{
+    margin:0 0 22px;
+    font:500 clamp(42px,5vw,68px)/1 "Cormorant Garamond", serif;
+    color:#5a414b;
+}
+
+.story-ending p{
+    max-width:760px;
+    margin:0 auto;
+    font-size:20px;
+    line-height:1.8;
+    color:#6f5a64;
+}
 /* ==========================================
    PREDSTAVITEV PASME
 ========================================== */
