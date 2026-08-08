@@ -204,16 +204,19 @@ footer p{margin:4px 0}
 }
 
 .story-photo img {
-  width: 100%;
-  height: auto;
-  display: block;
+    display:block;
+    width:100%;
+    height:340px;
+    object-fit:cover;
 }
 
 @media (max-width: 760px) {
   .story-photos {
     grid-template-columns: 1fr;
   }
-}/* ==========================================
+
+}
+/* ==========================================
    PREDSTAVITEV PASME
 ========================================== */
 
