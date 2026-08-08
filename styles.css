@@ -207,12 +207,13 @@ footer p{margin:4px 0}
 .story-photo img {
       display: block;
     width: 100%;
-    height: 360px;
+    height: 280px;
     object-fit: cover;
     border-radius: 22px;
     box-shadow: 0 14px 34px rgba(90, 62, 70, 0.14);
 }
 .story-photo:nth-child(1) img {
+    height: 360px;
     object-position: center 25%;
   }
 @media (max-width: 760px) {
