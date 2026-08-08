@@ -143,21 +143,22 @@ footer p{margin:4px 0}
 /* TELEFON */
 
 @media (max-width: 700px) {
-  .story-copy {
-    max-width: 100%;
-  }
+    .story-copy {
+        max-width: 100%;
+    }
 
-  .story-photos {
-    grid-template-columns: 1fr;
-    max-width: 340px;
-    gap: 28px;
-    margin: 34px auto 42px;
-  }
-  }
-  .story-intro {
-  max-width: 850px;
-  margin: 0 auto 65px;
-  display: block;
+    .story-photos {
+        grid-template-columns: 1fr;
+        max-width: 340px;
+        gap: 28px;
+        margin: 34px auto 42px;
+    }
+}
+
+.story-intro {
+    max-width: 850px;
+    margin: 0 auto 65px;
+    display: block;
 }
 
 .story-intro p {
