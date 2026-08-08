@@ -211,7 +211,9 @@ footer p{margin:4px 0}
     border-radius: 22px;
     box-shadow: 0 14px 34px rgba(90, 62, 70, 0.14);
 }
-
+.story-photo:nth-child(1) img {
+    object-position: center 20%;
+  }
 @media (max-width: 760px) {
   .story-photos {
     grid-template-columns: 1fr;
